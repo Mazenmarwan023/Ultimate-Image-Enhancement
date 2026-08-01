@@ -1,24 +1,24 @@
 # Ultimate-Image-Enhancement
 
-## 📌 Overview
+##  Overview
 
 This project is a comprehensive implementation of fundamental **Image Processing** techniques, with all core algorithms—including filtering, convolution, and edge detection—coded **from scratch** using Python and NumPy. It covers noise manipulation, low-pass and high-pass filtering, advanced edge detection (like Canny), histogram analysis, and the creation of **Hybrid Images**.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ **Noise Simulation:** Gaussian, Uniform, and Salt & Pepper noise.
-- ✅ **Custom Filtering:** Average, Gaussian, and Median filters implemented via manual 2D **convolution**.
-- ✅ **Advanced Edge Detection:** Sobel, Prewitt, Roberts, and a **from-scratch Canny Edge Detector**.
-- ✅ **Contrast Enhancement:** Histogram Equalization and Image Normalization.
-- ✅ **Adaptive Thresholding:** Global and Local (Adaptive) thresholding for segmentation.
-- ✅ **Frequency Domain Filtering:** Low-Pass (LPF) and High-Pass (HPF) filtering using **Fourier Transform**.
-- ✅ **Hybrid Image Generation:** Combining LPF and HPF images for multi-scale perception.
+-  **Noise Simulation:** Gaussian, Uniform, and Salt & Pepper noise.
+-  **Custom Filtering:** Average, Gaussian, and Median filters implemented via manual 2D **convolution**.
+-  **Advanced Edge Detection:** Sobel, Prewitt, Roberts, and a **from-scratch Canny Edge Detector**.
+-  **Contrast Enhancement:** Histogram Equalization and Image Normalization.
+-  **Adaptive Thresholding:** Global and Local (Adaptive) thresholding for segmentation.
+-  **Frequency Domain Filtering:** Low-Pass (LPF) and High-Pass (HPF) filtering using **Fourier Transform**.
+-  **Hybrid Image Generation:** Combining LPF and HPF images for multi-scale perception.
 
 ---
 
-## 🧠 Methodology (Core Implementation)
+##  Methodology (Core Implementation)
 
 ### 1. Noise and Filtering
 All filters utilize a **custom 2D convolution function** to apply kernels manually.
@@ -41,7 +41,7 @@ All filters utilize a **custom 2D convolution function** to apply kernels manual
 
 ---
 
-🖼️ **Screenshots**:
+ **Screenshots**:
 
 1.Gaussian Noise
 
@@ -107,7 +107,7 @@ All filters utilize a **custom 2D convolution function** to apply kernels manual
 
 ---
 
-## 📊 Results (Example Demonstrations)
+## Results (Example Demonstrations)
 
 | Technique | Image Type | Key Outcome |
 |---|---|---|
@@ -119,7 +119,7 @@ All filters utilize a **custom 2D convolution function** to apply kernels manual
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 - **Python 3.x**
 - **NumPy:** For efficient matrix and array operations.
@@ -128,7 +128,7 @@ All filters utilize a **custom 2D convolution function** to apply kernels manual
 
 ---
 
-## 📈 Future Work
+## Future Work
 
 - Implement **Non-Local Means** or other advanced denoising algorithms.
 - Explore **Wavelet Transform** for multi-resolution image analysis.
@@ -168,6 +168,6 @@ All filters utilize a **custom 2D convolution function** to apply kernels manual
 
 ---
 
-## 📜 License
+## License
 
 This project is open-source and available under the [MIT License](LICENSE).
